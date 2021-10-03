@@ -13,14 +13,14 @@ Using OpenCV to calculate the total number of rice grains in a picture and the t
 
 ## File Description:
 
-1.) Data <br />     
-    a.) test <br />     
-        i.)   test_image1 - contours of test image 1 <br />
-        ii.)  test_image2 - contours of test image 2 <br />
-        iii.) test_image3 - contours of test image 3 <br />
-        iv.)  test_image4 - contours of test image 4 <br />
-        v.)   test_image5 - contours of test image 5 <br />
-        vi.)  image_1.jpg to image_5.jpg - test images <br />
+1.) Data <br />
+    &nbsp;a.) test <br />     
+        &nbsp;&nbsp;i.)   test_image1 - contours of test image 1 <br />
+        &nbsp;&nbsp;ii.)  test_image2 - contours of test image 2 <br />
+        &nbsp;&nbsp;iii.) test_image3 - contours of test image 3 <br />
+        &nbsp;&nbsp;iv.)  test_image4 - contours of test image 4 <br />
+        &nbsp;&nbsp;v.)   test_image5 - contours of test image 5 <br />
+        &nbsp;&nbsp;vi.)  image_1.jpg to image_5.jpg - test images <br />
     b.) train <br />
         i.)   broken - contains the broken grain images <br />
         ii.)  broken_train - contains the contour of each broken grain from all the images <br />
