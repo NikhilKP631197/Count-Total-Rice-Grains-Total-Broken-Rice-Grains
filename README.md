@@ -14,20 +14,20 @@ Using OpenCV to calculate the total number of rice grains in a picture and the t
 ## File Description:
 
 1.) Data <br />
-    &nbsp;a.) test <br />     
-        &nbsp;&nbsp;i.)   test_image1 - contours of test image 1 <br />
-        &nbsp;&nbsp;ii.)  test_image2 - contours of test image 2 <br />
-        &nbsp;&nbsp;iii.) test_image3 - contours of test image 3 <br />
-        &nbsp;&nbsp;iv.)  test_image4 - contours of test image 4 <br />
-        &nbsp;&nbsp;v.)   test_image5 - contours of test image 5 <br />
-        &nbsp;&nbsp;vi.)  image_1.jpg to image_5.jpg - test images <br />
-    b.) train <br />
-        i.)   broken - contains the broken grain images <br />
-        ii.)  broken_train - contains the contour of each broken grain from all the images <br />
-        iii.) full - contains the full grain images <br />
-        iv.)  full_train - contains the contour of each full grain from all the images <br />
-        v.)   mixed_grain_1.jpg to mixed_grain_2.jpg - training images containing both the broken and full grain of rices <br />
-    c.) submission.csv - stores the total number of grains and total number of broken grains each for the respective images <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;a.) test <br />     
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.)   test_image1 - contours of test image 1 <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.)  test_image2 - contours of test image 2 <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii.) test_image3 - contours of test image 3 <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv.)  test_image4 - contours of test image 4 <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v.)   test_image5 - contours of test image 5 <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi.)  image_1.jpg to image_5.jpg - test images <br />
+   &nbsp;&nbsp;&nbsp;&nbsp;b.) train <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.)   broken - contains the broken grain images <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii.)  broken_train - contains the contour of each broken grain from all the images <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii.) full - contains the full grain images <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv.)  full_train - contains the contour of each full grain from all the images <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v.)   mixed_grain_1.jpg to mixed_grain_2.jpg - training images containing both the broken and full grain of rices <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;c.) submission.csv - stores the total number of grains and total number of broken grains each for the respective images <br />
 2.) black.jpg - A total black image used as background for painting the scaled contours of rice grains onto it <br />
 3.) create_training_set.py - Python source code to preprocess the training data, finding the contours, painting contours of each rice grain and saving the corresponding images in the given directory <br />
 4.) grain_classifier.h5 - trained CNN model to classify the given contour images as either broke or full grain of rice <br />
