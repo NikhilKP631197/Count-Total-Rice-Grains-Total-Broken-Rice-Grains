@@ -13,8 +13,8 @@ Using OpenCV to calculate the total number of rice grains in a picture and the t
 
 ## File Description:
 
-1.) Data <br />
-    a.) test <br />
+1.) Data <br />     
+    a.) test <br />     
         i.)   test_image1 - contours of test image 1 <br />
         ii.)  test_image2 - contours of test image 2 <br />
         iii.) test_image3 - contours of test image 3 <br />
